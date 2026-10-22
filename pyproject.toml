@@ -1,0 +1,12 @@
+[project]
+name = "llm-as-judge"
+version = "1.0.0"
+description = "A hands-on example of LLM observability and evaluation using Arize Phoenix, OpenTelemetry, and Ollama"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arize-phoenix>=20.23.0",
+    "arize-phoenix-otel>=0.17.2",
+    "openai>=3.35.1",
+    "openinference-instrumentation-openai>=0.1.65",
+]

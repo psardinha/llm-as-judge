@@ -1,0 +1,4 @@
+input.question,output.expected_answer,output.tool_should_be_called
+"Where is order 1001, and when will it arrive?","Order 1001 has shipped and is expected to arrive tomorrow.",True
+"What is the status of order 1002?","Order 1002 is still being processed.",True
+"What can you help me with?","I can help check an order's status if you provide an order number.",False
